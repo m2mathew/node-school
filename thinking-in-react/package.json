@@ -1,11 +1,100 @@
 {
-  "name": "thinking-in-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "program.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "thinking-in-react",
+      ""
+    ]
+  ],
+  "_from": "thinking-in-react@latest",
+  "_id": "thinking-in-react@3.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/thinking-in-react",
+  "_nodeVersion": "5.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/thinking-in-react-3.0.1.tgz_1456996438907_0.5283910345751792"
   },
-  "author": "",
-  "license": "ISC"
+  "_npmUser": {
+    "email": "asbjorn@asbjornenge.com",
+    "name": "asbjornenge"
+  },
+  "_npmVersion": "3.7.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "thinking-in-react",
+    "raw": "thinking-in-react",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/thinking-in-react/-/thinking-in-react-3.0.1.tgz",
+  "_shasum": "8ce7cb7fc09cd8d087b0d6c4a901e0786202aec1",
+  "_shrinkwrap": null,
+  "_spec": "thinking-in-react",
+  "_where": "",
+  "author": {
+    "email": "asbjorn@hanafjedle.net",
+    "name": "Asbjorn Enge"
+  },
+  "bin": {
+    "thinking-in-react": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/asbjornenge/thinking-in-react/issues"
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "blessed": "0.0.37",
+    "browserify": "^11.1.0",
+    "chalk": "^0.4.0",
+    "concat-stream": "^1.4.5",
+    "envify": "^1.2.1",
+    "jsdom": "^7.0.2",
+    "mocha": "^1.19.0",
+    "react": "^0.14.0-rc1",
+    "react-addons-test-utils": "^0.14.0-rc1",
+    "react-dom": "^0.14.0-rc1",
+    "workshopper": "git://github.com/rvagg/workshopper.git#cef8219ca2919964113c6daedd78a5db8404051b",
+    "workshopper-exercise": "^0.2.3",
+    "workshopper-wrappedexec": "^0.1.1"
+  },
+  "description": "Thinking in React workshopper",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8ce7cb7fc09cd8d087b0d6c4a901e0786202aec1",
+    "tarball": "https://registry.npmjs.org/thinking-in-react/-/thinking-in-react-3.0.1.tgz"
+  },
+  "gitHead": "5a29fc615fdd6f23c60d7369d819a50290233fbc",
+  "homepage": "https://github.com/asbjornenge/thinking-in-react",
+  "keywords": [
+    "react",
+    "workshopper",
+    "workshopper-module"
+  ],
+  "license": "BSD",
+  "maintainers": [
+    {
+      "email": "asbjorn@asbjornenge.com",
+      "name": "asbjornenge"
+    }
+  ],
+  "name": "thinking-in-react",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asbjornenge/thinking-in-react.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "version": "3.0.1"
 }

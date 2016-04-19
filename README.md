@@ -1,7 +1,8 @@
 # Nodeschool
 
 Go get some modules to learn some fun things!
-[node school website](http://nodeschool.io/)
+
+[Nodeschool website](http://nodeschool.io/)
 
 
 ### Javascripting

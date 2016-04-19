@@ -1,0 +1,23 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "A tutorial from [nodeschool.io](http://nodeschool.io/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2mathew/learn-you-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m2mathew/learn-you-node/issues"
+  },
+  "homepage": "https://github.com/m2mathew/learn-you-node#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}

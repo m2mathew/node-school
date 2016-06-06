@@ -40,21 +40,54 @@ export const ProductRow = React.createClass({
 
 export const ProductTable = React.createClass({
 	render() {
-		return (
-			<table>
-				<ProductCategoryRow />
-				<ProductRow />
-			</table>
-		)
-	}
+        const products = this.props.products;
+
+        const rows = [];
+        let currentCategory;
+
+        products.forEach((product) => {
+            if (product.category !== currentCategory) {
+                currentCategory = product.category;
+
+                rows.push((
+                    <ProductCategoryRow
+                        key={currentCategory}
+                        category={currentCategory}
+                    />
+                ));
+            }
+
+            rows.push((
+                <ProductRow key={product.name} product={product}/>
+            ));
+        });
+
+        return (
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {rows}
+                </tbody>
+            </table>
+        );
+    },
 })
 
 
 export const FilterableProductTable = React.createClass({
+	getInitialState {
+		filterText: '',
+	}
+
   render() {
     return (
       <div>
-      	<h1 style={{ fontFamily: 'Input Mono' }}>O hai, this is a table!</h1>
+      	<h1 style={{ fontFamily: 'Input Mono' }}>Welcome to my table!</h1>
       	<SearchBar />
       	<ProductTable
       		products={this.props.products}
